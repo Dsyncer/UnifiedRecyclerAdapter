@@ -44,4 +44,5 @@ recyclerView.adapter = unifiedRecyclerAdapter
 
 There are also other useful utilities classes such as SwipeToDelete or PaginationListener that are located under `recycler/helpers`
 
-**For more information, please, see documentation in `docs` folder**
+**For more information, please, see documentation in `docs` folder. You can also follow 
+[html](https://dsyncer.github.io/UnifiedRecyclerAdapter/html) documentation link or [gfm](https://dsyncer.github.io/UnifiedRecyclerAdapter/gfm) link**
