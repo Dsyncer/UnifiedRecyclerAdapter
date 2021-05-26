@@ -1,0 +1,4 @@
+rootProject.name = "UnifiedRecyclerKt"
+include ':app'
+include ':recycler'
+include ':items'
