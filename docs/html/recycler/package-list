@@ -1,0 +1,63 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.dst.unified.recycler.helpers////PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/index.html
+$dokka.location:com.dst.unified.recycler.helpers/PaginationListener///PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-pagination-listener/index.html
+$dokka.location:com.dst.unified.recycler.helpers/PaginationListener/PaginationListener/#androidx.recyclerview.widget.RecyclerView.LayoutManager#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-pagination-listener/-pagination-listener.html
+$dokka.location:com.dst.unified.recycler.helpers/PaginationListener/isLastPage/#/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-pagination-listener/is-last-page.html
+$dokka.location:com.dst.unified.recycler.helpers/PaginationListener/isLoading/#/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-pagination-listener/is-loading.html
+$dokka.location:com.dst.unified.recycler.helpers/PaginationListener/onScrolled/#androidx.recyclerview.widget.RecyclerView#kotlin.Int#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-pagination-listener/on-scrolled.html
+$dokka.location:com.dst.unified.recycler.helpers/SwipeToDelete///PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-swipe-to-delete/index.html
+$dokka.location:com.dst.unified.recycler.helpers/SwipeToDelete/SwipeToDelete/#android.content.Context#kotlin.Int#kotlin.Function2[androidx.recyclerview.widget.RecyclerView.ViewHolder,kotlin.Int,kotlin.Unit]#kotlin.Int#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-swipe-to-delete/-swipe-to-delete.html
+$dokka.location:com.dst.unified.recycler.helpers/SwipeToDelete/onChildDraw/#android.graphics.Canvas#androidx.recyclerview.widget.RecyclerView#androidx.recyclerview.widget.RecyclerView.ViewHolder#kotlin.Float#kotlin.Float#kotlin.Int#kotlin.Boolean/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-swipe-to-delete/on-child-draw.html
+$dokka.location:com.dst.unified.recycler.helpers/SwipeToDelete/onMove/#androidx.recyclerview.widget.RecyclerView#androidx.recyclerview.widget.RecyclerView.ViewHolder#androidx.recyclerview.widget.RecyclerView.ViewHolder/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-swipe-to-delete/on-move.html
+$dokka.location:com.dst.unified.recycler.helpers/SwipeToDelete/onSwiped/#androidx.recyclerview.widget.RecyclerView.ViewHolder#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler.helpers/-swipe-to-delete/on-swiped.html
+$dokka.location:com.dst.unified.recycler////PointingToDeclaration/recycler/com.dst.unified.recycler/index.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver///PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/index.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/ItemPositionObserver/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/-item-position-observer.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/onItemRangeInserted/#kotlin.Int#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/on-item-range-inserted.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/onItemRangeMoved/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/on-item-range-moved.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/onItemRangeRemoved/#kotlin.Int#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/on-item-range-removed.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/onPositionChangedListener/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/on-position-changed-listener.html
+$dokka.location:com.dst.unified.recycler/ItemPositionObserver/position/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-item-position-observer/position.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem///PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/index.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem/NotifiableRecyclerItem/#kotlin.Int#com.dst.unified.recycler.UnifiedRecyclerAdapter/PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/-notifiable-recycler-item.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem/notifyItemChanged/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/notify-item-changed.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem/notifyItemChanged/#kotlin.Any/PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/notify-item-changed.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem/positionObserver/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/position-observer.html
+$dokka.location:com.dst.unified.recycler/NotifiableRecyclerItem/removeItemFromRecyclerView/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-notifiable-recycler-item/remove-item-from-recycler-view.html
+$dokka.location:com.dst.unified.recycler/RecyclerItem///PointingToDeclaration/recycler/com.dst.unified.recycler/-recycler-item/index.html
+$dokka.location:com.dst.unified.recycler/RecyclerItem/getItemId/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-recycler-item/get-item-id.html
+$dokka.location:com.dst.unified.recycler/RecyclerItem/getSpanSize/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-recycler-item/get-span-size.html
+$dokka.location:com.dst.unified.recycler/RecyclerItem/viewType/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-recycler-item/view-type.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter///PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/index.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/UnifiedRecyclerAdapter/#kotlin.Array[com.dst.unified.recycler.UnifiedViewHolderType[com.dst.unified.recycler.RecyclerItem]]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/-unified-recycler-adapter.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/addItem/#com.dst.unified.recycler.RecyclerItem/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/add-item.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/addItem/#kotlin.Int#com.dst.unified.recycler.RecyclerItem/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/add-item.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/addItems/#kotlin.Int#kotlin.collections.Collection[com.dst.unified.recycler.RecyclerItem]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/add-items.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/addItems/#kotlin.collections.Collection[com.dst.unified.recycler.RecyclerItem]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/add-items.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/addViewHolderType/#com.dst.unified.recycler.UnifiedViewHolderType[com.dst.unified.recycler.RecyclerItem]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/add-view-holder-type.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/clear/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/clear.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/getItemCount/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/get-item-count.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/getItemId/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/get-item-id.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/getItemViewType/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/get-item-view-type.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/onBindViewHolder/#com.dst.unified.recycler.UnifiedViewHolder[com.dst.unified.recycler.RecyclerItem]#kotlin.Int#kotlin.collections.MutableList[kotlin.Any]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/on-bind-view-holder.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/onBindViewHolder/#com.dst.unified.recycler.UnifiedViewHolder[com.dst.unified.recycler.RecyclerItem]#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/on-bind-view-holder.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/onCreateViewHolder/#android.view.ViewGroup#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/on-create-view-holder.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/onItemClickListener/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/on-item-click-listener.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/onItemLongClickListener/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/on-item-long-click-listener.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/recyclerItems/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/recycler-items.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/removeItem/#com.dst.unified.recycler.RecyclerItem/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/remove-item.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/removeItem/#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/remove-item.html
+$dokka.location:com.dst.unified.recycler/UnifiedRecyclerAdapter/setItem/#kotlin.Int#com.dst.unified.recycler.RecyclerItem/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-recycler-adapter/set-item.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolder///PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder/index.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolder/UnifiedViewHolder/#android.view.View/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder/-unified-view-holder.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolder/bind/#TypeParam(bounds=[com.dst.unified.recycler.RecyclerItem])#kotlin.Int#kotlin.collections.List[kotlin.Any]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder/bind.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolder/bind/#TypeParam(bounds=[com.dst.unified.recycler.RecyclerItem])#kotlin.Int/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder/bind.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolderType///PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder-type/index.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolderType/UnifiedViewHolderType/#kotlin.Int#kotlin.Int#java.lang.Class[com.dst.unified.recycler.UnifiedViewHolder[TypeParam(bounds=[com.dst.unified.recycler.RecyclerItem])]]/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder-type/-unified-view-holder-type.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolderType/layoutRes/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder-type/layout-res.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolderType/unifiedViewHolderClass/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder-type/unified-view-holder-class.html
+$dokka.location:com.dst.unified.recycler/UnifiedViewHolderType/viewType/#/PointingToDeclaration/recycler/com.dst.unified.recycler/-unified-view-holder-type/view-type.html
+com.dst.unified.recycler
+com.dst.unified.recycler.helpers
+

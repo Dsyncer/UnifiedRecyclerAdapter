@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>RecyclerItem</title>
+<link href="../../../../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn"><a href="../../../index.html">
+          <div id="logo"></div>
+        </a>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="recycler::com.dst.unified.recycler/RecyclerItem///PointingToDeclaration//1908259569">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../../index.html">recycler</a>/<a href="../index.html">com.dst.unified.recycler</a>/<a href="index.html">RecyclerItem</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Recycler</span><wbr></wbr><span>Item</span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":recycler:dokkaHtml/release"><div class="symbol monospace">interface <a href="index.html">RecyclerItem</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">This is a base interface that all classes that want to be displayed in <a href="../-unified-recycler-adapter/index.html">UnifiedRecyclerAdapter</a> have to implement</p><p class="paragraph">This interface is considered to be default building block of that library and many methods pass it as a parameter, such as <a href="../-unified-recycler-adapter/on-item-click-listener.html">UnifiedRecyclerAdapter.onItemClickListener</a> or <a href="../-unified-recycler-adapter/on-item-long-click-listener.html">UnifiedRecyclerAdapter.onItemLongClickListener</a>. It can be safely upcasted to parent classes by doing next:</p><div class="sample-container"><code class="" theme="idea"><pre>if (item is ParentClass) {<br> item.someParentClassMethod()<br>}</pre></code></div><p class="paragraph">Or if <a href="../-unified-view-holder/index.html">UnifiedViewHolder</a> supports only one item</p><div class="sample-container"><code class="" theme="idea"><pre>if (item.viewType == ParentHolder.viewType) {<br> val parentItem = item as ParentClass<br> parentItem.someParentClassMethod()<br>}</pre></code></div></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="See also">See also</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">See also</h2>
+              <div data-togglable="See also">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":recycler:dokkaHtml/release"><div data-togglable="See also"><div class="table" data-togglable="See also"><div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-unified-view-holder/index.html">com.dst.unified.recycler.UnifiedViewHolder</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-unified-view-holder-type/index.html">com.dst.unified.recycler.UnifiedViewHolderType</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-unified-recycler-adapter/index.html">com.dst.unified.recycler.UnifiedRecyclerAdapter</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-notifiable-recycler-item/index.html">com.dst.unified.recycler.NotifiableRecyclerItem</a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="-931212586%2FFunctions%2F1908259569" anchor-label="getItemId" id="-931212586%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-item-id.html">getItemId</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-931212586%2FFunctions%2F1908259569"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":recycler:dokkaHtml/release"><div class="symbol monospace">open fun <a href="get-item-id.html">getItemId</a>(position: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-931212586%2FFunctions%2F1908259569" anchor-label="getItemId" id="-931212586%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a><div class="brief "><a data-name="-931212586%2FFunctions%2F1908259569" anchor-label="getItemId" id="-931212586%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>Method that returns objects unique id that is used in <a href="https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView.Adapter.html#getitemid">RecyclerView.Adapter.getItemId</a>.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1117793127%2FFunctions%2F1908259569" anchor-label="getSpanSize" id="-1117793127%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="get-span-size.html">getSpanSize</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1117793127%2FFunctions%2F1908259569"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":recycler:dokkaHtml/release"><div class="symbol monospace">open fun <a href="get-span-size.html">getSpanSize</a>(position: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-1117793127%2FFunctions%2F1908259569" anchor-label="getSpanSize" id="-1117793127%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a><div class="brief "><a data-name="-1117793127%2FFunctions%2F1908259569" anchor-label="getSpanSize" id="-1117793127%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>Method that returns span size of that item.</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-610411875%2FFunctions%2F1908259569" anchor-label="viewType" id="-610411875%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="view-type.html">viewType</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-610411875%2FFunctions%2F1908259569"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":recycler:dokkaHtml/release"><div class="symbol monospace">abstract fun <a href="view-type.html">viewType</a>(position: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<a data-name="-610411875%2FFunctions%2F1908259569" anchor-label="viewType" id="-610411875%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a><div class="brief "><a data-name="-610411875%2FFunctions%2F1908259569" anchor-label="viewType" id="-610411875%2FFunctions%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>This method is used to connect <a href="../-unified-view-holder/index.html">UnifiedViewHolder</a> and it's corresponding items</div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Inheritors</h2>
+              <div class="table" data-togglable="Inheritors"><a data-name="-719626130%2FInheritors%2F1908259569" anchor-label="NotifiableRecyclerItem" id="-719626130%2FInheritors%2F1908259569" data-filterable-set=":recycler:dokkaHtml/release"></a>
+                <div class="table-row" data-filterable-current=":recycler:dokkaHtml/release" data-filterable-set=":recycler:dokkaHtml/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../-notifiable-recycler-item/index.html">NotifiableRecyclerItem</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-719626130%2FInheritors%2F1908259569"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+
